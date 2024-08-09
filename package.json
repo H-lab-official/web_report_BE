@@ -1,0 +1,21 @@
+{
+  "name": "web_report_be",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "redis": "^4.7.0"
+  }
+}

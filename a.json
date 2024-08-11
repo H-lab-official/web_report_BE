@@ -1,0 +1,3074 @@
+[
+    {
+      "_count": {
+        "log_content": 3563
+      },
+      "log_content": "login_page"
+    },
+    {
+      "_count": {
+        "log_content": 2023
+      },
+      "log_content": "Training_menu"
+    },
+    {
+      "_count": {
+        "log_content": 90
+      },
+      "log_content": "Menu_Highlight_Training หลักสูตร Unit-Linked"
+    },
+    {
+      "_count": {
+        "log_content": 1576
+      },
+      "log_content": "Home_menu"
+    },
+    {
+      "_count": {
+        "log_content": 968
+      },
+      "log_content": "News_menu"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Tools_nemu"
+    },
+    {
+      "_count": {
+        "log_content": 409
+      },
+      "log_content": "Agree coc_button"
+    },
+    {
+      "_count": {
+        "log_content": 980
+      },
+      "log_content": "Tutorials_button"
+    },
+    {
+      "_count": {
+        "log_content": 721
+      },
+      "log_content": "COC_button"
+    },
+    {
+      "_count": {
+        "log_content": 1781
+      },
+      "log_content": "Product_menu"
+    },
+    {
+      "_count": {
+        "log_content": 818
+      },
+      "log_content": "Test schedule_button"
+    },
+    {
+      "_count": {
+        "log_content": 275
+      },
+      "log_content": "Test schedule_Type กรุงเทพ"
+    },
+    {
+      "_count": {
+        "log_content": 78
+      },
+      "log_content": "Test schedule_Type ภาคกลาง"
+    },
+    {
+      "_count": {
+        "log_content": 16
+      },
+      "log_content": "Test schedule_Province นครสวรรค์"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province เพชรบุรี"
+    },
+    {
+      "_count": {
+        "log_content": 290
+      },
+      "log_content": "Product_Type เตรียมให้คนข้างหลัง"
+    },
+    {
+      "_count": {
+        "log_content": 208
+      },
+      "log_content": "logout_page"
+    },
+    {
+      "_count": {
+        "log_content": 1805
+      },
+      "log_content": "Notification_icon"
+    },
+    {
+      "_count": {
+        "log_content": 1397
+      },
+      "log_content": "License_icon"
+    },
+    {
+      "_count": {
+        "log_content": 1280
+      },
+      "log_content": "Tools_menu"
+    },
+    {
+      "_count": {
+        "log_content": 115
+      },
+      "log_content": "ตารางกิจกรรม_button"
+    },
+    {
+      "_count": {
+        "log_content": 187
+      },
+      "log_content": "UM_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 195
+      },
+      "log_content": "Click Product_มาย ดับเบิล พลัส"
+    },
+    {
+      "_count": {
+        "log_content": 148
+      },
+      "log_content": "Click Menu Highlight Training Calendar_หลักสูตรแนะนำ"
+    },
+    {
+      "_count": {
+        "log_content": 587
+      },
+      "log_content": "ดูเส้นทางอาชีพเพิ่มเติม_button"
+    },
+    {
+      "_count": {
+        "log_content": 530
+      },
+      "log_content": "License Download_button"
+    },
+    {
+      "_count": {
+        "log_content": 137
+      },
+      "log_content": "Tutorials Type_เริ่มต้น"
+    },
+    {
+      "_count": {
+        "log_content": 509
+      },
+      "log_content": "บันทึกเป้าหมาย_Button"
+    },
+    {
+      "_count": {
+        "log_content": 38
+      },
+      "log_content": "Tutorials Type_Product"
+    },
+    {
+      "_count": {
+        "log_content": 427
+      },
+      "log_content": "ดูเส้นทางฝึกฝนเพิ่มเติม_button"
+    },
+    {
+      "_count": {
+        "log_content": 234
+      },
+      "log_content": "Fav_icon"
+    },
+    {
+      "_count": {
+        "log_content": 291
+      },
+      "log_content": "Calendar_icon"
+    },
+    {
+      "_count": {
+        "log_content": 189
+      },
+      "log_content": "Product_Type เตรียมเกษียณ"
+    },
+    {
+      "_count": {
+        "log_content": 357
+      },
+      "log_content": "ข้อมูลบริษัท_button"
+    },
+    {
+      "_count": {
+        "log_content": 374
+      },
+      "log_content": "Product_Type เตรียมด้านสุขภาพ"
+    },
+    {
+      "_count": {
+        "log_content": 46
+      },
+      "log_content": "Tutorials Type_Traning"
+    },
+    {
+      "_count": {
+        "log_content": 92
+      },
+      "log_content": "Click Product_ประกันสุขภาพ ปลดล็อค ดับเบิล แคร์ (HSMHPDC)"
+    },
+    {
+      "_count": {
+        "log_content": 392
+      },
+      "log_content": "Menu_Highlight_Training หลักสูตรแนะนำ"
+    },
+    {
+      "_count": {
+        "log_content": 35
+      },
+      "log_content": "Click Test schedule_Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 69
+      },
+      "log_content": "Test schedule_Type ภาคตะวันออก"
+    },
+    {
+      "_count": {
+        "log_content": 44
+      },
+      "log_content": "Test schedule_Province ชลบุรี"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดชลบุรี รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 29
+      },
+      "log_content": "Click Training schedule_Smart Seeling Skills"
+    },
+    {
+      "_count": {
+        "log_content": 104
+      },
+      "log_content": "Course_Type หลักสูตร Unit-Linked"
+    },
+    {
+      "_count": {
+        "log_content": 90
+      },
+      "log_content": "Course_Type หลักสูตร Blue star"
+    },
+    {
+      "_count": {
+        "log_content": 90
+      },
+      "log_content": "ผลิตภัณฑ์โปรด_button"
+    },
+    {
+      "_count": {
+        "log_content": 453
+      },
+      "log_content": "Training schedule_button"
+    },
+    {
+      "_count": {
+        "log_content": 142
+      },
+      "log_content": "Course_Type หลักสูตร OIC"
+    },
+    {
+      "_count": {
+        "log_content": 110
+      },
+      "log_content": "Click Menu Highlight Training Calendar_หลักสูตร Blue star"
+    },
+    {
+      "_count": {
+        "log_content": 64
+      },
+      "log_content": "Click Product_มาย เวลท์ เลกาซี A99/6 (มีเงินปันผล)"
+    },
+    {
+      "_count": {
+        "log_content": 19
+      },
+      "log_content": "Tutorials Type_Tolols"
+    },
+    {
+      "_count": {
+        "log_content": 115
+      },
+      "log_content": "Download Product_มาย ดับเบิล พลัส"
+    },
+    {
+      "_count": {
+        "log_content": 37
+      },
+      "log_content": "Download Product_มาย เวลท์ เลกาซี A99/6 (มีเงินปันผล)"
+    },
+    {
+      "_count": {
+        "log_content": 54
+      },
+      "log_content": "Fav Type_ข่าวสาร"
+    },
+    {
+      "_count": {
+        "log_content": 59
+      },
+      "log_content": "Fav Type_หลักสูตร"
+    },
+    {
+      "_count": {
+        "log_content": 37
+      },
+      "log_content": "Fav Type_ผลิตภัณฑ์"
+    },
+    {
+      "_count": {
+        "log_content": 26
+      },
+      "log_content": "Fav Type_กิจกรรม"
+    },
+    {
+      "_count": {
+        "log_content": 41
+      },
+      "log_content": "Tutorials Type_Home"
+    },
+    {
+      "_count": {
+        "log_content": 174
+      },
+      "log_content": "Tools Type_แอปพลิเคชั่น"
+    },
+    {
+      "_count": {
+        "log_content": 19
+      },
+      "log_content": "Click Product_ประกันสุขภาพ ปลดล็อค สบายกระเป๋า (HSMHPSK)"
+    },
+    {
+      "_count": {
+        "log_content": 43
+      },
+      "log_content": "ข่าวสาร/กิจกรรม Type_การแข่งขัน"
+    },
+    {
+      "_count": {
+        "log_content": 39
+      },
+      "log_content": "ข่าวสาร/กิจกรรม Type_กิจกรรม"
+    },
+    {
+      "_count": {
+        "log_content": 55
+      },
+      "log_content": "ข่าวสาร/กิจกรรม Type_ข่าวสาร"
+    },
+    {
+      "_count": {
+        "log_content": 12
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_AGENCY JOURNEY พร้อมใช้งานแล้ววันนี้!"
+    },
+    {
+      "_count": {
+        "log_content": 362
+      },
+      "log_content": "ติดต่อ_button"
+    },
+    {
+      "_count": {
+        "log_content": 215
+      },
+      "log_content": "Tools_button"
+    },
+    {
+      "_count": {
+        "log_content": 91
+      },
+      "log_content": "Course_Type ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 82
+      },
+      "log_content": "Course_Type หลักสูตรแนะนำ"
+    },
+    {
+      "_count": {
+        "log_content": 27
+      },
+      "log_content": "Test schedule_Type ภาคใต้"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province สงขลา"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดสงขลา รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดสงขลา รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 94
+      },
+      "log_content": "Course_Type หลักสูตร Blue StarX"
+    },
+    {
+      "_count": {
+        "log_content": 483
+      },
+      "log_content": "Notification_เฉพาะคุณ"
+    },
+    {
+      "_count": {
+        "log_content": 538
+      },
+      "log_content": "Notification_อบรม,สอบ"
+    },
+    {
+      "_count": {
+        "log_content": 28
+      },
+      "log_content": "Click Product_ประกันคุ้มครองโรคร้าย มาย ซีไอ แคร์ A85/20"
+    },
+    {
+      "_count": {
+        "log_content": 109
+      },
+      "log_content": "กดยืนยันเมื่อทำสำเร็จ_Button"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_ใครเจอน้องโบว์แล้วบ้าง? 10 ท่านแรกใน Comment ใต้ภาพ Facebook Agency Support รับรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 150
+      },
+      "log_content": "Tools Type_เว็บไซต์"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_AGENCY JOURNEY พร้อมใช้งานแล้ววันนี้!"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click ตารางกิจกรรม_AGENCY LEADER SEMINAR 2024"
+    },
+    {
+      "_count": {
+        "log_content": 365
+      },
+      "log_content": "Notification_บริษัท"
+    },
+    {
+      "_count": {
+        "log_content": 284
+      },
+      "log_content": "Notification_ข่าวสาร"
+    },
+    {
+      "_count": {
+        "log_content": 23
+      },
+      "log_content": "Click Product_สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง (CI48)"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_AO GREEN OFFICE CONTEST 2024"
+    },
+    {
+      "_count": {
+        "log_content": 18
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_คนนี้น้องโบว์ ส่วนนี่ BonusX อย่ามัวแต่มอง รีบเปิด AZD เลย!"
+    },
+    {
+      "_count": {
+        "log_content": 114
+      },
+      "log_content": "SUM_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 88
+      },
+      "log_content": "Product_Type ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 164
+      },
+      "log_content": "Notification_ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 114
+      },
+      "log_content": "DM_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 149
+      },
+      "log_content": "Menu_Highlight_Training หลักสูตร Blue star"
+    },
+    {
+      "_count": {
+        "log_content": 53
+      },
+      "log_content": "Download Product_ประกันสุขภาพ ปลดล็อค ดับเบิล แคร์ (HSMHPDC)"
+    },
+    {
+      "_count": {
+        "log_content": 18
+      },
+      "log_content": "Click Product_ประกันโรคร้าย มัลติแคร์ (CIMC)"
+    },
+    {
+      "_count": {
+        "log_content": 108
+      },
+      "log_content": "Menu_Highlight_Training หลักสูตร OIC"
+    },
+    {
+      "_count": {
+        "log_content": 193
+      },
+      "log_content": "Menu_Highlight_Training ดูหลักสูตรเพิ่มเติม"
+    },
+    {
+      "_count": {
+        "log_content": 67
+      },
+      "log_content": "AG_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 81
+      },
+      "log_content": "Add data calendar_button"
+    },
+    {
+      "_count": {
+        "log_content": 102
+      },
+      "log_content": "SDM_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 142
+      },
+      "log_content": "AVP_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 77
+      },
+      "log_content": "VP_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 58
+      },
+      "log_content": "EVP_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 66
+      },
+      "log_content": "SEVP_Journey"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดชลบุรี รอบวันที่ 07/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 49
+      },
+      "log_content": "Click Product_ประกันสุขภาพ แผนแพลทินัม (80MB) และแผนบียอนด์ แพลทินัม (100MB) (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 167
+      },
+      "log_content": "Product_Type เตรียมอื่นๆลงทุน/มรดก"
+    },
+    {
+      "_count": {
+        "log_content": 21
+      },
+      "log_content": "Click Product_อยุธยาเฉพาะกาล 10/10"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Download Product_อยุธยาเฉพาะกาล 10/10"
+    },
+    {
+      "_count": {
+        "log_content": 70
+      },
+      "log_content": "ผลิตภัณฑ์_button"
+    },
+    {
+      "_count": {
+        "log_content": 14
+      },
+      "log_content": "Click Product_ประกันชีวิต มาย โฮล ไลฟ์ A90/21"
+    },
+    {
+      "_count": {
+        "log_content": 46
+      },
+      "log_content": "Click Highlight Training schedule_Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 17
+      },
+      "log_content": "Click Training schedule_Insurance Business Owner"
+    },
+    {
+      "_count": {
+        "log_content": 19
+      },
+      "log_content": "Join Training schedule_Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 31
+      },
+      "log_content": "Click Product_ยูนิต ลิงค์ มาย สไตล์ ซิงเกิล เพย์"
+    },
+    {
+      "_count": {
+        "log_content": 12
+      },
+      "log_content": "Share Training _Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Click Training schedule_Open House (Unit-Linked)"
+    },
+    {
+      "_count": {
+        "log_content": 19
+      },
+      "log_content": "Click Product_อยุธยาชีวิตมั่นคง A85/X"
+    },
+    {
+      "_count": {
+        "log_content": 12
+      },
+      "log_content": "Download Android_Application Allianz Learn ( AZL)"
+    },
+    {
+      "_count": {
+        "log_content": 95
+      },
+      "log_content": "Tools Type_ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 57
+      },
+      "log_content": "Click Menu Highlight Training Calendar_หลักสูตร Unit-Linked"
+    },
+    {
+      "_count": {
+        "log_content": 17
+      },
+      "log_content": "Click Product_ประกันชีวิตควบการลงทุน มาย สไตล์ โพรเทค (ยูนิต ลิงค์)"
+    },
+    {
+      "_count": {
+        "log_content": 15
+      },
+      "log_content": "Download Product_ประกันสุขภาพ ปลดล็อค สบายกระเป๋า (HSMHPSK)"
+    },
+    {
+      "_count": {
+        "log_content": 19
+      },
+      "log_content": "Instruction icon_My Allianz"
+    },
+    {
+      "_count": {
+        "log_content": 96
+      },
+      "log_content": "เข้าสู่เว็บไซต์ button_Website Allianz Learn ( AZL)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Download Android_Healthy Living"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Download ios_Healthy Living"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Click Training schedule_Pre AL หลักสูตรเตรียมผู้บริหารตัวแทน"
+    },
+    {
+      "_count": {
+        "log_content": 12
+      },
+      "log_content": "Tutorials Type_News"
+    },
+    {
+      "_count": {
+        "log_content": 16
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_ของดี! ใกล้ AO"
+    },
+    {
+      "_count": {
+        "log_content": 17
+      },
+      "log_content": "Click Highlight Training schedule_หลักสูตรปฐมนิเทศผู้บริหารตัวแทนใหม่  (AL Orientation)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav ข่าวสาร/กิจกรรม_ของดี! ใกล้ AO"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_ของดี! ใกล้ AO"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_ของดี! ใกล้ AO"
+    },
+    {
+      "_count": {
+        "log_content": 38
+      },
+      "log_content": "Click Test schedule_ฺBridge To Success"
+    },
+    {
+      "_count": {
+        "log_content": 16
+      },
+      "log_content": "Click Test schedule_E First Time Management"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Click Training schedule_Blue Star Program"
+    },
+    {
+      "_count": {
+        "log_content": 21
+      },
+      "log_content": "Download ios_Application Allianz Learn ( AZL)"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click Highlight Training schedule_RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับบุคคลทั่วไป"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Join Training schedule_RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับบุคคลทั่วไป"
+    },
+    {
+      "_count": {
+        "log_content": 55
+      },
+      "log_content": "Test schedule_Type ภาคตะวันออกเฉียงเหนือ"
+    },
+    {
+      "_count": {
+        "log_content": 29
+      },
+      "log_content": "Click Product_มาย บำนาญ พลัส (บำนาญแบบลดหย่อนได้)"
+    },
+    {
+      "_count": {
+        "log_content": 15
+      },
+      "log_content": "Download Product_มาย บำนาญ พลัส (บำนาญแบบลดหย่อนได้)"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Click Training schedule_RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับบุคคลทั่วไป"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Click Product_ประกันมะเร็งหายห่วง (CBN)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Download Product_ประกันมะเร็งหายห่วง (CBN)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _ประกันมะเร็งหายห่วง (CBN)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Fav Product _ประกันมะเร็งหายห่วง (CBN)"
+    },
+    {
+      "_count": {
+        "log_content": 25
+      },
+      "log_content": "Fav Type_อบรม"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_Scan QR Code หรือกด Link ด้านล่าง เพื่อ Login เข้าใช้งาน \"AGENCY JOURNEY\" รับของรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_AO GREEN OFFICE CONTEST 2024"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Instruction icon_Allianz Discover ( AZD)"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Instruction icon_Application Allianz Learn ( AZL)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_คนนี้น้องโบว์ ส่วนนี่ BonusX อย่ามัวแต่มอง รีบเปิด AZD เลย!"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _ประกันโรคร้าย มัลติแคร์ (CIMC)"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Join Test schedule_RLC1 AZL; ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 1"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Test schedule_Province นครศรีธรรมราช"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 07/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 07/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 18
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_พบกับพวกเราได้ที่งาน AL Seminar บูธ AGENCY SUPPORT ของแจกเพียบ!"
+    },
+    {
+      "_count": {
+        "log_content": 27
+      },
+      "log_content": "ข่าวสาร/กิจกรรม Type_Lifestyle"
+    },
+    {
+      "_count": {
+        "log_content": 17
+      },
+      "log_content": "Download Product_อยุธยาชีวิตมั่นคง A85/X"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province อุบลราชธานี"
+    },
+    {
+      "_count": {
+        "log_content": 56
+      },
+      "log_content": "Click Menu List Training Calendar_ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Download Product_ประกันโรคร้าย มัลติแคร์ (CIMC)"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Join Test schedule_Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click Test schedule_RLC1 AZL; ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 1"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_New UL License"
+    },
+    {
+      "_count": {
+        "log_content": 20
+      },
+      "log_content": "Fav Type_ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 16
+      },
+      "log_content": "Click Training schedule_หลักสูตรปฐมนิเทศผู้บริหารตัวแทนใหม่  (AL Orientation)"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Share Training _หลักสูตรปฐมนิเทศผู้บริหารตัวแทนใหม่  (AL Orientation)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Training schedule_Pre AL หลักสูตรเตรียมผู้บริหารตัวแทน"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "ติดต่อ_ฝ่ายสนับสนุนตัวแทน (อนุโลมคุณวุฒิการแข่งขันและผลประโยชน์ฝ่ายขาย)"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click Highlight Training schedule_First Time Management"
+    },
+    {
+      "_count": {
+        "log_content": 25
+      },
+      "log_content": "Click Product_มาย บำนาญ ไฟว์ A90/5 บำนาญแบบลดหย่อนได้ (มีเงินปันผล)"
+    },
+    {
+      "_count": {
+        "log_content": 23
+      },
+      "log_content": "Fav Type_สอบ"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_ALs Orientation 2 Days"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "ข่าวสาร/การเเข่งขัน_button"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click Training schedule_Unit-Linked Product and Sales Process"
+    },
+    {
+      "_count": {
+        "log_content": 48
+      },
+      "log_content": "Click Product_สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง 48 บียอนด์ (CI48 Beyond)"
+    },
+    {
+      "_count": {
+        "log_content": 34
+      },
+      "log_content": "Download Product_สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง 48 บียอนด์ (CI48 Beyond)"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Download Product_ประกันคุ้มครองโรคร้าย มาย ซีไอ แคร์ A85/20"
+    },
+    {
+      "_count": {
+        "log_content": 27
+      },
+      "log_content": "Download Product_ประกันสุขภาพ แผนแพลทินัม (80MB) และแผนบียอนด์ แพลทินัม (100MB) (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 22
+      },
+      "log_content": "Click Highlight Training schedule_High Productivity Agent"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Download Product_มาย บำนาญ ไฟว์ A90/5 บำนาญแบบลดหย่อนได้ (มีเงินปันผล)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Highlight Training schedule_RLC1 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 1"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Join Training schedule_RLC1 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 1"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Click Highlight Training schedule_Open House (Unit-Linked)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2  รอบวันที่ 06/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Click Product_สัญญาเพิ่มเติมคุ้มครองโรคมะเร็ง (CB)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _Pre AL หลักสูตรเตรียมผู้บริหารตัวแทน"
+    },
+    {
+      "_count": {
+        "log_content": 12
+      },
+      "log_content": "Click Training schedule_Blue Star UPC 2024"
+    },
+    {
+      "_count": {
+        "log_content": 14
+      },
+      "log_content": "Click Training schedule_Unit-Linked Life Policy"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Share Training _Unit-Linked Life Policy"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2  รอบวันที่ 06/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Download ios_Allianz Discover on Mobile  ( AZD on Mobile)"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Download ios_My Allianz"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Download Android_My Allianz"
+    },
+    {
+      "_count": {
+        "log_content": 23
+      },
+      "log_content": "Share Product _มาย ดับเบิล พลัส"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Fav Product _มาย ดับเบิล พลัส"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Fav Test_Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 45
+      },
+      "log_content": "Test schedule_Type ภาคเหนือ"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_AGENCY JOURNEY พร้อมใช้งานแล้ววันนี้!"
+    },
+    {
+      "_count": {
+        "log_content": 29
+      },
+      "log_content": "Click Product_ประกันสุขภาพ เฟิร์สคลาส @บีดีเอ็มเอส (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 31
+      },
+      "log_content": "Download Product_ประกันสุขภาพ เฟิร์สคลาส @บีดีเอ็มเอส (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Training _Blue Star X Program"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Share Product _ประกันสุขภาพ ปลดล็อค ดับเบิล แคร์ (HSMHPDC)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_RLC1; Virtual Classroom ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 1"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Click Training schedule_First Time Management"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click Training schedule_Pre AVP"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Click Training schedule_BSX Open House 2024"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click Highlight Training schedule_Blue Star Program"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Product _มาย บำนาญ ไฟว์ A90/5 บำนาญแบบลดหย่อนได้ (มีเงินปันผล)"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Join Training schedule_High Productivity Agent"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Product _ประกันมะเร็งหายห่วง (CBN)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง 48 บียอนด์ (CI48 Beyond)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Fav Test_E First Time Management"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 13/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 15
+      },
+      "log_content": "Click Training schedule_High Productivity Agent"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Test schedule_Province ราชบุรี"
+    },
+    {
+      "_count": {
+        "log_content": 17
+      },
+      "log_content": "Test schedule_Province นครปฐม"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Join Training schedule_First Time Management"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Test schedule_Province ตาก"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Test schedule_Province น่าน"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_Allianz SheSecures Women Club สำหรับผู้หญิง ใน Allianz แห่งแรก!"
+    },
+    {
+      "_count": {
+        "log_content": 24
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_News Letter ฉบับแรก เดือนกรกฎาคม 2024"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Product _ประกันโรคร้าย มัลติแคร์ (CIMC)"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Test schedule_Province นครราชสีมา"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Click Highlight Training schedule_BSX Open House 2024"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Click Highlight Training schedule_Blue Star X Program"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Highlight Training schedule_BSX Assembly"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_Scan QR Code หรือกด Link ด้านล่าง เพื่อ Login เข้าใช้งาน \"AGENCY JOURNEY\" รับของรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 20
+      },
+      "log_content": "Click Training schedule_LC อบรมเพื่อขอรับใบอนุญาตตัวแทนประกันชีวิต"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Join Training schedule_LC อบรมเพื่อขอรับใบอนุญาตตัวแทนประกันชีวิต"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav ข่าวสาร/กิจกรรม_Scan QR Code หรือกด Link ด้านล่าง เพื่อ Login เข้าใช้งาน \"AGENCY JOURNEY\" รับของรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav ข่าวสาร/กิจกรรม_AO GREEN OFFICE CONTEST 2024"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Share Product _ประกันสุขภาพ แผนแพลทินัม (80MB) และแผนบียอนด์ แพลทินัม (100MB) (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Click Product_ประกันชดเชยสบายกระเป๋า (HBCI)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Highlight Training schedule_Blue Star BKK 2024"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Click Training schedule_Blue Star BKK 2024"
+    },
+    {
+      "_count": {
+        "log_content": 29
+      },
+      "log_content": "Click Product_อยุธยาชั่วระยะเวลา"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Product _อยุธยาชั่วระยะเวลา"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Share Product _สัญญาเพิ่มเติมคุ้มครองโรคมะเร็ง (CB)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Join Training schedule_Smart Seeling Skills"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Click ตารางกิจกรรม_ภาพบรรยากาศงาน AL Seminar 2024 เมื่อวันเสาร์ที่ 6 กรกฎาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Click Training schedule_Blue Star X Program"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click Training schedule_RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับลดหย่อน-ปริญญาโท"
+    },
+    {
+      "_count": {
+        "log_content": 26
+      },
+      "log_content": "Click Training schedule_Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Click Training schedule_BSX Assembly"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Test schedule_Province พะเยา"
+    },
+    {
+      "_count": {
+        "log_content": 12
+      },
+      "log_content": "Test schedule_Province พระนครศรีอยุธยา"
+    },
+    {
+      "_count": {
+        "log_content": 87
+      },
+      "log_content": "Test schedule_Province กาญจนบุรี"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click Training schedule_AVP Hero"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Join Training schedule_Pre AVP"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click ตารางกิจกรรม_The Franchise Builder 2024 (CEO Roundtable)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share ตารางกิจกรรม_The Franchise Builder 2024 (CEO Roundtable)"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click Training schedule_RLC1 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 1"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "ข่าวสาร/กิจกรรม Type_ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "ตารางกิจกรรม Type_EVENT"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "ตารางกิจกรรม Type_ทั้งหมด"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Instruction icon_Healthy Living"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Instruction icon_Allianz Discover on Mobile  ( AZD on Mobile)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province ตราด"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดตราด รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_AO Contest 2024"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Click Highlight Training schedule_RLC3 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 3"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click Highlight Training schedule_RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับลดหย่อน-ปริญญาโท"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Download Product_ยูนิต ลิงค์ มาย สไตล์ ซิงเกิล เพย์"
+    },
+    {
+      "_count": {
+        "log_content": 12
+      },
+      "log_content": "Download Android_Allianz Discover ( AZD)"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Download Android_Allianz Discover on Mobile  ( AZD on Mobile)"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Test schedule_Province ประจวบคีรีขันธ์"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Test schedule_Province สกลนคร"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Test schedule_Province มุกดาหาร"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดมุกดาหาร รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดมุกดาหาร รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Test schedule_Province นครพนม"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Fav Product _สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง 48 บียอนด์ (CI48 Beyond)"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Click Product_สัญญาเพิ่มเติมคุ้มครองค่ารักษาพยาบาลรายวันพิเศษ (HBP)"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Fav Product _สัญญาเพิ่มเติมคุ้มครองค่ารักษาพยาบาลรายวันพิเศษ (HBP)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _สัญญาเพิ่มเติมคุ้มครองโรคมะเร็ง (CB)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Fav Product _อยุธยาชั่วระยะเวลา"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _อยุธยาเฉพาะกาล 10/10"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Fav Training_Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click Training schedule_New AL Weekly Meeting"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Training schedule_Active UL"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Download ios_Allianz Discover ( AZD)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _เปิดรับสมัคร หลักสูตร Blue Star BKK รุ่น45"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Test schedule_Province ลพบุรี"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province ศรีสะเกษ"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Test schedule_Province ภูเก็ต"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Test schedule_Province ร้อยเอ็ด"
+    },
+    {
+      "_count": {
+        "log_content": 14
+      },
+      "log_content": "Test schedule_Province เชียงใหม่"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Test schedule_Province ขอนแก่น"
+    },
+    {
+      "_count": {
+        "log_content": 20
+      },
+      "log_content": "Click Menu List Training Calendar_ตารางสอบ"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Share Product _มาย เวลท์ เลกาซี A99/6 (มีเงินปันผล)"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_กำหนดการปิดรับเอกสารเลื่อนตำแหน่ง UM,DM,SDM เดือนกรกฎาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _ประกันสุขภาพ เฟิร์สคลาส @บีดีเอ็มเอส (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _ประกันสุขภาพ เฟิร์สคลาส @บีดีเอ็มเอส (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Product _ประกันสุขภาพ เฟิร์สคลาส @บีดีเอ็มเอส (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click Highlight Training schedule_Blue Star Open House"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _Blue Star Open House"
+    },
+    {
+      "_count": {
+        "log_content": 45
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2  รอบวันที่ 27/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 14
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2  รอบวันที่ 27/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province สระแก้ว"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดสระแก้ว รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Product _ประกันชีวิต มาย โฮล ไลฟ์ A90/21"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Test_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2  รอบวันที่ 27/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _BSX Assembly"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Training_BSX Assembly"
+    },
+    {
+      "_count": {
+        "log_content": 10
+      },
+      "log_content": "Test schedule_Province พิษณุโลก"
+    },
+    {
+      "_count": {
+        "log_content": 11
+      },
+      "log_content": "Share Product _สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง (CI48)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง (CI48)"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click Menu List Training Calendar_หลักสูตร Blue StarX"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Download Product_ประกันชดเชยสบายกระเป๋า (HBCI)"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click Highlight Training schedule_Unit-Linked Product and Sales Process"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Join Training schedule_หลักสูตรปฐมนิเทศผู้บริหารตัวแทนใหม่  (AL Orientation)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _อยุธยาชั่วระยะเวลา"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Dislike Product _อยุธยาชั่วระยะเวลา"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_New UL License"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click Training schedule_RLC2 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 2"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Join Training schedule_RLC2 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 2"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Product _มาย บำนาญ พลัส (บำนาญแบบลดหย่อนได้)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดขอนแก่น รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click ตารางกิจกรรม_น้องโบว์คือใคร น้องโบว์มาทำอะไร? 6 กรกฏาคม นี้ รู้กัน!"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดขอนแก่น รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 32
+      },
+      "log_content": "Click Menu List Training Calendar_หลักสูตร OIC"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Download Product_ประกันชีวิตควบการลงทุน มาย สไตล์ โพรเทค (ยูนิต ลิงค์)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดเชียงใหม่ รอบวันที่ 7/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดเชียงใหม่ รอบวันที่ 7/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click Highlight Training schedule_Unit-Linked Life Policy"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Test schedule_Province บึงกาฬ"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province ชุมพร"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province ตรัง"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Test schedule_Province กาฬสินธุ์"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดบึงกาฬ รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดนครสวรรค์ รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดนครสวรรค์ รอบวันที่ 14/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Test schedule_Province เพชรบูรณ์"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click Training schedule_Blue Star Information (Drive)"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_ตรวจสอบรายชื่อผู้สมัครสอบ ฯ สนามสอบราชเทวี รอบวันที่ 13-14 กรกฎาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Fav Test_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2  รอบวันที่ 27/07/2567"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_ตรวจสอบรายชื่อผู้สมัครสอบ ฯ สนามสอบราชเทวี รอบวันที่ 13-14 กรกฎาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 33
+      },
+      "log_content": "Test schedule_Province จันทบุรี"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Join Test schedule_ฺBridge To Success"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Fav Training_Smart Seeling Skills"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click Highlight Training schedule_Blue Star UPC 2024"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Fav Test_ฺBridge To Success"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "ติดต่อ_ศูนย์บริการลูกค้า อลิอันซ์ อยุธยา ประกันชีวิต ตลอด 24 ชั่วโมง"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Like Product _ประกันชีวิตควบการลงทุน มาย สไตล์ โพรเทค (ยูนิต ลิงค์)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Training _Blue Star BKK 2024"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Share Training _Blue Star Program"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Highlight Training schedule_Active UL"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Training schedule_New GM"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click Training schedule_New AVP Weekly Meeting"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click Training schedule_RLC3 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 3"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click Training schedule_Blue Star Open House"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Click Training schedule_เปิดรับสมัคร หลักสูตร Blue Star BKK รุ่น45"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Share Product _สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง 48 บียอนด์ (CI48 Beyond)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _Active UL"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Test schedule_Province สุรินทร์"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _สัญญาเพิ่มเติมคุ้มครองโรคร้ายแรง (CI48)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav ตารางกิจกรรม_The Franchise Builder 2024 (CEO Roundtable)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_E-licensing กำลังปรับปรุงระบบ"
+    },
+    {
+      "_count": {
+        "log_content": 501
+      },
+      "log_content": "เลือกเป้าหมายของคุณ_button"
+    },
+    {
+      "_count": {
+        "log_content": 174
+      },
+      "log_content": "FINANCIAL ADVISOR_icon"
+    },
+    {
+      "_count": {
+        "log_content": 124
+      },
+      "log_content": "Openhouse_icon"
+    },
+    {
+      "_count": {
+        "log_content": 91
+      },
+      "log_content": "Unit-Linked life policy_icon"
+    },
+    {
+      "_count": {
+        "log_content": 72
+      },
+      "log_content": "UL Product and Sales process_icon"
+    },
+    {
+      "_count": {
+        "log_content": 56
+      },
+      "log_content": "Active UL_icon"
+    },
+    {
+      "_count": {
+        "log_content": 189
+      },
+      "log_content": "หลักสูตร Smart Selling Skills_icon"
+    },
+    {
+      "_count": {
+        "log_content": 273
+      },
+      "log_content": "หลักสูตร smart start_icon"
+    },
+    {
+      "_count": {
+        "log_content": 156
+      },
+      "log_content": "Bridge to success_icon"
+    },
+    {
+      "_count": {
+        "log_content": 89
+      },
+      "log_content": "Pre AL_icon"
+    },
+    {
+      "_count": {
+        "log_content": 105
+      },
+      "log_content": "AL orientation_icon"
+    },
+    {
+      "_count": {
+        "log_content": 100
+      },
+      "log_content": "First time Management_icon"
+    },
+    {
+      "_count": {
+        "log_content": 58
+      },
+      "log_content": "New GM and AVP Orientation_icon"
+    },
+    {
+      "_count": {
+        "log_content": 40
+      },
+      "log_content": "AVP Hero_icon"
+    },
+    {
+      "_count": {
+        "log_content": 48
+      },
+      "log_content": "New AVP Weekly Meeting_icon"
+    },
+    {
+      "_count": {
+        "log_content": 0
+      },
+      "log_content": null
+    },
+    {
+      "_count": {
+        "log_content": 79
+      },
+      "log_content": "Blue Star Program_icon"
+    },
+    {
+      "_count": {
+        "log_content": 199
+      },
+      "log_content": "หลักสูตร High Productivity Agent_icon"
+    },
+    {
+      "_count": {
+        "log_content": 181
+      },
+      "log_content": "หลักสูตร CL/ RLC_icon"
+    },
+    {
+      "_count": {
+        "log_content": 130
+      },
+      "log_content": "Fulltime Development Program_icon"
+    },
+    {
+      "_count": {
+        "log_content": 59
+      },
+      "log_content": "Blue StarX Program_icon"
+    },
+    {
+      "_count": {
+        "log_content": 97
+      },
+      "log_content": "New UM_icon"
+    },
+    {
+      "_count": {
+        "log_content": 84
+      },
+      "log_content": "New AL Weekly Meeting_icon"
+    },
+    {
+      "_count": {
+        "log_content": 66
+      },
+      "log_content": "Insurance Business Owner_icon"
+    },
+    {
+      "_count": {
+        "log_content": 59
+      },
+      "log_content": "Pre AVP_icon"
+    },
+    {
+      "_count": {
+        "log_content": 115
+      },
+      "log_content": "New AVP_icon"
+    },
+    {
+      "_count": {
+        "log_content": 97
+      },
+      "log_content": "Start_icon"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click Highlight Training schedule_เปิดรับสมัคร หลักสูตร Blue Star BKK รุ่น45"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Fav Product _ประกันคุ้มครองโรคร้าย มาย ซีไอ แคร์ A85/20"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Fav Product _ประกันสุขภาพ ปลดล็อค ดับเบิล แคร์ (HSMHPDC)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _อยุธยาชีวิตมั่นคง A85/X"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _ประกันชีวิต มาย โฮล ไลฟ์ A90/21"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Test schedule_Province ปราจีนบุรี"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "ติดต่อ_ฝ่ายบริหารกรมธรรม์ (กรมธรรม์รายสามัญ)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Product _ยูนิต ลิงค์ มาย สไตล์ ซิงเกิล เพย์"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Test schedule_Province เชียงราย"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province ลำปาง"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Test schedule_Province อุตรดิตถ์"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Test schedule_Province แพร่"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _ประกันคุ้มครองโรคร้าย มาย ซีไอ แคร์ A85/20"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _Smart Start Special Online"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _มาย เวลท์ เลกาซี A99/6 (มีเงินปันผล)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Fav Product _ประกันโรคร้าย มัลติแคร์ (CIMC)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _ประกันสุขภาพ แผนแพลทินัม (80MB) และแผนบียอนด์ แพลทินัม (100MB) (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _มาย บำนาญ พลัส (บำนาญแบบลดหย่อนได้)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Product _ประกันชีวิตควบการลงทุน มาย สไตล์ โพรเทค (ยูนิต ลิงค์)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Training_Active UL"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Training_New AL Weekly Meeting"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _New AL Weekly Meeting"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _New AL Weekly Meeting"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_News Letter ฉบับแรก เดือนกรกฎาคม 2024"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "ติดต่อ_ฝ่ายพิจารณารับประกัน (ตามมาตรฐานการพิจารณา)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province มหาสารคาม"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Dislike ข่าวสาร/กิจกรรม_Scan QR Code หรือกด Link ด้านล่าง เพื่อ Login เข้าใช้งาน \"AGENCY JOURNEY\" รับของรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดชลบุรี รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 23
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 10/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Test schedule_Province ระยอง"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_คนนี้น้องโบว์ ส่วนนี่ BonusX อย่ามัวแต่มอง รีบเปิด AZD เลย!"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_RLC1; Virtual Classroom ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 1"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_อบรมขอต่อฯ เรียบร้อยแล้ว อย่าลืมแจ้งต่อบัตรบนระบบ E-Register"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 03/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Test_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 03/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 03/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 10/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Test_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 10/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดศรีสะเกษ รอบวันที่ 18/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Test schedule_Province อุดรธานี"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดอุดรธานี รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดอุดรธานี รอบวันที่ 18/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดอุดรธานี รอบวันที่ 25/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click Product_สัญญาเพิ่มเติมคุ้มครองค่ารักษาพยาบาลรายวัน (HB)"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Test schedule_Province สุราษฎร์ธานี"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Training _High Productivity Agent"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _High Productivity Agent"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click ตารางกิจกรรม_Life Changer"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click ตารางกิจกรรม_AL Seminar 2024 X Agency Booth"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดมุกดาหาร รอบวันที่ 18/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Training _LC อบรมเพื่อขอรับใบอนุญาตตัวแทนประกันชีวิต"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Product _ประกันคุ้มครองโรคร้าย มาย ซีไอ แคร์ A85/20"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Training _Blue Star UPC 2024"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _Unit-Linked Product and Sales Process"
+    },
+    {
+      "_count": {
+        "log_content": 9
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_อบรมขอต่อฯ เรียบร้อยแล้ว อย่าลืมแจ้งต่อบัตรบนระบบ E-Register"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_ประกาศรายชื่อผู้สมัครสอบตัวแทนฯ สนามสอบราชเทวี รอบวันที่ 27 กรกฎาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav ข่าวสาร/กิจกรรม_ประกาศรายชื่อผู้สมัครสอบตัวแทนฯ สนามสอบราชเทวี รอบวันที่ 27 กรกฎาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Training_Blue Star UPC 2024"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดชลบุรี รอบวันที่ 18/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share Training _Open House (Unit-Linked)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_ประกาศรายชื่อผู้สมัครสอบตัวแทนฯ สนามสอบราชเทวี รอบวันที่ 27 กรกฎาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click Product_ประกันชีวิตควบการลงทุน มาย สไตล์ สมาร์ต เพย์ 15 (ยูนิต ลิงค์)"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Download Product_ประกันชีวิตควบการลงทุน มาย สไตล์ สมาร์ต เพย์ 15 (ยูนิต ลิงค์)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Product _ประกันสุขภาพ แผนแพลทินัม (80MB) และแผนบียอนด์ แพลทินัม (100MB) (HSMFCP_S/ HSMFCB_S)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_High Productivity Agent BKK กรุงเทพและปริมณฑล"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดร้อยเอ็ด รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Training _BSX Assembly"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Training _BSX Open House 2024"
+    },
+    {
+      "_count": {
+        "log_content": 13
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_มาตั้งเป้าหมายใน Agency Journey มีสิทธิลุ้นรับของรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Test schedule_Province ชัยภูมิ"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดระยอง รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 4
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดระยอง รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_มาตั้งเป้าหมายใน Agency Journey มีสิทธิลุ้นรับของรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Training_หลักสูตรปฐมนิเทศผู้บริหารตัวแทนใหม่  (AL Orientation)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Highlight Training schedule_RLC2 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 2"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _Smart Seeling Skills"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_กำหนดการรับเอกสารเลื่อนตำแหน่ง UM,DM,SDM เดือน กรกฎาคม 2567 (ปิดรับเอกสารวันที่ 12 กรกฎาคม)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Test_สนามสอบ จังหวัดชลบุรี รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "ติดต่อ_ฝ่ายพิจารณารับประกัน (เกินมาตรฐานการพิจารณา)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_มาตั้งเป้าหมายใน Agency Journey มีสิทธิลุ้นรับของรางวัลไปเลย!"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _New AVP Weekly Meeting"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _Insurance Business Owner"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดนครราชสีมา รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดนครราชสีมา รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 24/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _First Time Management"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _First Time Management"
+    },
+    {
+      "_count": {
+        "log_content": 5
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_ประกาศรายชื่อผู้สมัครสอบตัวแทนฯ สนามสอบราชเทวี รอบวันที่ 3 - 4 สิงหาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Like ข่าวสาร/กิจกรรม_News Letter ฉบับแรก เดือนกรกฎาคม 2024"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav ข่าวสาร/กิจกรรม_News Letter ฉบับแรก เดือนกรกฎาคม 2024"
+    },
+    {
+      "_count": {
+        "log_content": 6
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_News Letter ฉบับแรก เดือนสิงหาคม 2024"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Training schedule_RLC3 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 3"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Fav Training_BSX Open House 2024"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _Insurance Business Owner"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดชลบุรี รอบวันที่ 25/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_News Letter ฉบับแรก เดือนสิงหาคม 2024"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดชลบุรี รอบวันที่ 18/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 7
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 11/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Test_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 04/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 04/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_ประกาศรายชื่อผู้สมัครสอบตัวแทนฯ สนามสอบราชเทวี รอบวันที่ 3 - 4 สิงหาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "ติดต่อ_ฝ่ายสินไหม (การเคลม)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดสุราษฎร์ธานี รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดสุราษฎร์ธานี รอบวันที่ 04/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 11/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 3
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 17/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 18/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Click Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 25/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 2
+      },
+      "log_content": "Share Training _RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับลดหย่อน-ปริญญาโท"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Training schedule_RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับลดหย่อน-ปริญญาโท"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _RLC4 ขอต่อใบอนุญาตตัวแทนประกันชีวิต ครั้งที่ 4 สำหรับลดหย่อน-ปริญญาโท"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Highlight Training schedule_เปิดรับสมัคร หลักสูตร Blue Star BKK รุ่น46"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Training _เปิดรับสมัคร หลักสูตร Blue Star BKK รุ่น46"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Training schedule_New AL Weekly Meeting"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Test schedule_Province ยะลา"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Product _ประกันสุขภาพ ปลดล็อค สบายกระเป๋า (HSMHPSK)"
+    },
+    {
+      "_count": {
+        "log_content": 8
+      },
+      "log_content": "Click ข่าวสาร/กิจกรรม_ประกาศรายชื่อผู้สมัครสอบตัวแทนฯ สนามสอบราชเทวี รอบวันที่ 10-11 สิงหาคม 2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share Product _อยุธยาชีวิตมั่นคง A85/X"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Like Training _Open House (Unit-Linked)"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Click Test schedule_สนามสอบ จังหวัดเชียงราย รอบวันที่ 18/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_สนามสอบ จังหวัดเชียงราย รอบวันที่ 18/08/67"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Join Test schedule_ศูนย์สอบราชเทวี อาคารสเปซ ราชเทวี ชั้น2 รอบวันที่ 17/08/2567"
+    },
+    {
+      "_count": {
+        "log_content": 1
+      },
+      "log_content": "Share ข่าวสาร/กิจกรรม_ประกาศรายชื่อผู้สมัครสอบตัวแทนฯ สนามสอบราชเทวี รอบวันที่ 10-11 สิงหาคม 2567"
+    }
+  ]

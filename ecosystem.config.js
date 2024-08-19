@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'az-report',
       script: 'index.js',
-      interpreter: 'node', 
+      interpreter: 'node',
       watch: '.',
       env: {
         NODE_ENV: 'development'
@@ -19,8 +19,8 @@ module.exports = {
       user: 'SSH_USERNAME',
       host: 'SSH_HOSTMACHINE',
       ref: 'origin/main',
-      repo: 'GIT_REPOSITORY',
-      path: 'DESTINATION_PATH',
+      repo: 'https://github.com/H-lab-official/web_report_BE',
+      path: 'web_report_BE',
       'pre-deploy-local': '',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.cjs --env production',
       'pre-setup': ''

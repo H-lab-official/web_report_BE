@@ -39,7 +39,7 @@ jobs:
             git pull origin ${GITHUB_REF#refs/heads/}
             echo "DATABASE_URL=\"${DATABASE_URL}\"" > .env          
             bun install
-            bun run prisma generate 
+            bunx prisma generate
             bun run build
             
             mv ecosystem.config.js ecosystem.config.cjs

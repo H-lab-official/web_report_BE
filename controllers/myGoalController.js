@@ -20,14 +20,77 @@ function convertBigIntToString(obj) {
     }, {});
 }
 export async function getMyGoal(req, res) {
-    let cacheMyGoal = await client.get('my_goal_users')
+    const { period, startDate, endDate, user_id, goal, price, status, name, taskStartDate, taskEndDate } = req.query;
+
+    let cacheMyGoal = await client.get('my_goal_users');
     if (!cacheMyGoal) {
-        await updateGoalCache()
-        cacheMyGoal = await client.get('my_goal_users')
+        await updateGoalCache();
+        cacheMyGoal = await client.get('my_goal_users');
     }
-    let myGoal = JSON.parse(cacheMyGoal)
+    let myGoal = JSON.parse(cacheMyGoal);
+
+    // Filter by period
+    if (period) {
+        myGoal = myGoal.filter(goal => goal.period === period);
+    }
+
+    // Filter by creation date range
+    if (startDate && endDate) {
+        const start = new Date(startDate).setHours(0, 0, 0, 0);
+        const end = new Date(endDate).setHours(23, 59, 59, 999);
+        myGoal = myGoal.filter(goal => {
+            const myGoalDate = new Date(goal.created_at).getTime();
+            return myGoalDate >= start && myGoalDate <= end;
+        });
+    }
+
+    // Filter by user_id
+    if (user_id) {
+        myGoal = myGoal.filter(goal => goal.user_id === parseInt(user_id));
+    }
+
+    // Filter by goal
+    if (goal) {
+        myGoal = myGoal.filter(g => g.goal.toLowerCase().includes(goal.toLowerCase()));
+    }
+
+    // Filter by price
+    if (price) {
+        myGoal = myGoal.filter(g => parseFloat(g.price.replace(/,/g, '')) === parseFloat(price));
+    }
+
+    // Filter by status
+    if (status) {
+        myGoal = myGoal.filter(g => g.status ? g.status.toLowerCase() === status.toLowerCase() : false);
+    }
+
+    // Filter by name
+    if (name) {
+        myGoal = myGoal.filter(g => g.name.toLowerCase().includes(name.toLowerCase()));
+    }
+
+    // Filter by task start date
+    if (taskStartDate) {
+        const taskStart = new Date(taskStartDate).setHours(0, 0, 0, 0);
+        myGoal = myGoal.filter(goal => {
+            const goalStartDate = new Date(goal.date_start).getTime();
+            return goalStartDate >= taskStart;
+        });
+    }
+
+    // Filter by task end date
+    if (taskEndDate) {
+        const taskEnd = new Date(taskEndDate).setHours(23, 59, 59, 999);
+        myGoal = myGoal.filter(goal => {
+            const goalEndDate = new Date(goal.date_end).getTime();
+            return goalEndDate <= taskEnd;
+        });
+    }
+
     res.json(myGoal);
 }
+
+
 export async function updateGoalCache() {
     try {
         const my_goal_users = await prisma.my_goal_users_with_user_info.findMany();

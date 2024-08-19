@@ -31,11 +31,12 @@ function convertDatesFromISOString(logs) {
 }
 
 export async function getLogs(req, res) {
-  const { log_content, startDate, endDate, user_id, name, current_rank } = req.query;
+  const { log_content, startDate, endDate, user_id, name, current_rank,  } = req.query;
 
   const cachedlogs = await client.get('all_logs');
 
   if (!cachedlogs) {
+    await updateCache()
     return res.status(500).json({ error: "Logs are not available at the moment. Please try again later." });
   }
 

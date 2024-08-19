@@ -557,6 +557,7 @@ model video_welcome_pages {
   log        String?   @db.LongText
   video      String?   @db.LongText
 }
+
 model logs_with_user_info {
   id           Int       @id
   log_content  String?
@@ -568,16 +569,17 @@ model logs_with_user_info {
 }
 
 model my_goal_users_with_user_info {
-  id          Int       @id
- 
-  created_at  DateTime?
-  updated_at  DateTime?
-  user_id     Int?
-  date_start  DateTime?
-  date_end    DateTime?
-  period      String?
-  goal        String?
-  price       String?
-  status      String?
-  name        String?
+  id Int @id
+
+  created_at   DateTime?
+  updated_at   DateTime?
+  user_id      Int?
+  date_start   DateTime?
+  date_end     DateTime?
+  period       String?
+  goal         String?
+  price        String?
+  status       String?
+  name         String?
+  current_rank String?
 }

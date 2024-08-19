@@ -23,7 +23,7 @@ function convertBigIntToString(obj) {
 }
 
 export async function getUsers(req, res) {
-  const { user_id, name, check_pdpa, current_rank, startDate, endDate } = req.query;
+  const { user_id, name, check_pdpa, current_rank, startDate, endDate, check_video_welcome_page } = req.query;
 
   let cachedUsers = await client.get('data_users');
 
@@ -50,7 +50,11 @@ export async function getUsers(req, res) {
   } else if (check_pdpa) {
     users = users.filter(user => user.check_pdpa === check_pdpa);
   }
-
+  if (check_video_welcome_page === "NotChecked") {
+    users = users.filter(user => user.check_video_welcome_page === null)
+  } else if (check_video_welcome_page) {
+    users = users.filter(user => user.check_video_welcome_page === check_video_welcome_page)
+  }
   // Filter by current_rank
   if (current_rank) {
     users = users.filter(user => user.current_rank === current_rank);

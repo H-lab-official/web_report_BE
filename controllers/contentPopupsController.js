@@ -58,7 +58,7 @@ export async function updateLogContentCache() {
     try {
         const users = await prisma.content_popups.findMany();
         const formattedUsers = convertBigIntToString(users);
-        await client.set('log_content_popup', JSON.stringify(formattedUsers), { EX: 600 });
+        await client.set('log_content_popup', JSON.stringify(formattedUsers), { EX: 1 * 24 * 60 * 60 });
     } catch (error) {
         console.error('Error updating log_content_popup cache:', error);
     }

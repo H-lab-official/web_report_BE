@@ -39,9 +39,11 @@ jobs:
             git pull origin ${GITHUB_REF#refs/heads/}
             echo "DATABASE_URL=\"${DATABASE_URL}\"" > .env          
             npm install
+            npx prisma generate 
             npm run build
+            
             mv ecosystem.config.js ecosystem.config.cjs
-            npx prisma generate         
+                  
             if pm2 list | grep -q $APP_NAME; then
               echo "Restarting application: $APP_NAME"
               pm2 restart $APP_NAME

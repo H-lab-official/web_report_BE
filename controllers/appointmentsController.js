@@ -31,129 +31,69 @@ export async function getappointments(req, res) {
     const { title, type, user_like, user_dislike, user_share, user_fav, user_view, log_rating, location_detail, link_map, link_out, date_start, date_end, time_start, time_end } = req.query;
 
     try {
-        let cacheLogContent = await client.get('log_appointments');
+        // Get data from cache
+        let appointments = await client.get('log_appointments');
 
-        if (!cacheLogContent) {
+        // If cache is empty, update it
+        if (!appointments) {
             await updateappointmentsCache();
-            cacheLogContent = await client.get('log_appointments');
+            appointments = await client.get('log_appointments');
         }
 
-        if (cacheLogContent) {
-            let appointments = JSON.parse(cacheLogContent);
+        appointments = JSON.parse(appointments);
 
-            if (title) {
-                appointments = appointments.filter(item => item.title.includes(title));
-            }
+        // Prepare the filters
+        const filters = {};
 
-            // Filter by type (enum values "สอบ" and "อบรม")
-            if (type && Object.values(AppointmentType).includes(type)) {
-                appointments = appointments.filter(item => item.type === type);
-            }
+        if (title) filters.title = { contains: title };
+        if (type && Object.values(AppointmentType).includes(type)) filters.type = type;
+        if (user_like) filters.user_like = { has: user_like };
+        if (user_dislike) filters.user_dislike = { has: user_dislike };
+        if (user_share) filters.user_share = { has: user_share };
+        if (user_fav) filters.user_fav = { has: user_fav };
+        if (user_view) filters.user_view = { has: user_view };
+        if (log_rating) filters.log_rating = { has: log_rating };
+        if (location_detail) filters.location_detail = { contains: location_detail };
+        if (link_map) filters.link_map = { contains: link_map };
+        if (link_out) filters.link_out = { contains: link_out };
 
-            // Filter by user_like
-            if (user_like) {
-                appointments = appointments.filter(item => {
-                    const likes = JSON.parse(item.user_like || '[]');
-                    return likes.includes(user_like);
-                });
-            }
+        // Filter by date_start and date_end
+        if (date_start || date_end) {
+            filters.date_start = { gte: new Date(date_start) };
+            filters.date_end = { lte: new Date(date_end) };
+        }
 
-            // Filter by user_dislike
-            if (user_dislike) {
-                appointments = appointments.filter(item => {
-                    const dislikes = JSON.parse(item.user_dislike || '[]');
-                    return dislikes.includes(user_dislike);
-                });
-            }
+        // Filter by time_start and time_end
+        if (time_start || time_end) {
+            filters.time_start = { gte: time_start };
+            filters.time_end = { lte: time_end };
+        }
 
-            // Filter by user_share
-            if (user_share) {
-                appointments = appointments.filter(item => {
-                    const shares = JSON.parse(item.user_share || '{}');
-                    return Object.keys(shares).includes(user_share);
-                });
-            }
+        // Apply the filters
+        appointments = appointments.filter(appointment =>
+            Object.keys(filters).every(key =>
+                Array.isArray(filters[key])
+                    ? filters[key].includes(appointment[key])
+                    : appointment[key] && appointment[key].toString().includes(filters[key])
+            )
+        );
 
-            // Filter by user_fav
-            if (user_fav) {
-                appointments = appointments.filter(item => {
-                    const favs = JSON.parse(item.user_fav || '{}');
-                    return Object.keys(favs).includes(user_fav);
-                });
-            }
-
-            // Filter by user_view
-            if (user_view) {
-                appointments = appointments.filter(item => {
-                    const views = JSON.parse(item.user_view || '{}');
-                    return Object.keys(views).includes(user_view);
-                });
-            }
-
-            // Filter by log_rating
-            if (log_rating) {
-                appointments = appointments.filter(item => {
-                    const ratings = JSON.parse(item.log_rating || '{}');
-                    return Object.keys(ratings).includes(log_rating);
-                });
-            }
-
-            // Filter by location_detail
-            if (location_detail) {
-                appointments = appointments.filter(item => item.location_detail.includes(location_detail));
-            }
-
-            // Filter by link_map
-            if (link_map) {
-                appointments = appointments.filter(item => item.link_map.includes(link_map));
-            }
-
-            // Filter by link_out
-            if (link_out) {
-                appointments = appointments.filter(item => item.link_out.includes(link_out));
-            }
-
-            // Filter by date_start and date_end
-            if (date_start || date_end) {
-                const startDate = new Date(date_start);
-                const endDate = new Date(date_end);
-                appointments = appointments.filter(item => {
-                    const itemStartDate = new Date(item.date_start);
-                    const itemEndDate = new Date(item.date_end);
-                    return (!date_start || itemStartDate >= startDate) && (!date_end || itemEndDate <= endDate);
-                });
-            }
-
-            // Filter by time_start and time_end
-            if (time_start || time_end) {
-                const startTime = new Date(`1970-01-01T${time_start}`).getTime();
-                const endTime = new Date(`1970-01-01T${time_end}`).getTime();
-                appointments = appointments.filter(item => {
-                    const itemStartTime = new Date(`1970-01-01T${item.time_start}`).getTime();
-                    const itemEndTime = new Date(`1970-01-01T${item.time_end}`).getTime();
-                    return (!time_start || itemStartTime >= startTime) && (!time_end || itemEndTime <= endTime);
-                });
-            }
-
-            if (appointments.length > 0) {
-                res.json(appointments);
-            } else {
-                res.status(404).json({ error: 'Content not found.' });
-            }
+        if (appointments.length > 0) {
+            res.json(appointments);
         } else {
-            res.status(500).json({ error: 'Failed to retrieve log training data.' });
+            res.status(404).json({ error: 'Content not found.' });
         }
     } catch (error) {
-        console.error('Error in getappointmentsLog:', error);
-        res.status(500).json({ error: 'An error occurred while retrieving log appointments data.' });
+        console.error('Error in getappointments:', error);
+        res.status(500).json({ error: 'An error occurred while retrieving appointments data.' });
     }
 }
 
 export async function updateappointmentsCache() {
     try {
-        const users = await prisma.appointments.findMany();
-        const formattedUsers = convertBigIntToString(users);
-        await client.set('log_appointments', JSON.stringify(formattedUsers), { EX: 1 * 24 * 60 * 60 });
+        const appointments = await prisma.appointments.findMany();
+        const formattedAppointments = convertBigIntToString(appointments);
+        await client.set('log_appointments', JSON.stringify(formattedAppointments), { EX: 1 * 24 * 60 * 60 });
     } catch (error) {
         console.error('Error updating log_appointments cache:', error);
     }

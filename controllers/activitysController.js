@@ -1,4 +1,3 @@
-// controllers/countController.js
 import prisma from '../prismaClient.js';
 import client from '../redisClient.js';
 
@@ -21,8 +20,9 @@ function convertBigIntToString(obj) {
         return acc;
     }, {});
 }
+
 export async function getactivitys(req, res) {
-    const { id, datetime_start, title, user_like, user_dislike, user_share, user_fav, user_view ,log_rating} = req.query;
+    const { id, datetime_start, title, user_like, user_dislike, user_share, user_fav, user_view, log_rating } = req.query;
 
     try {
         let cacheLogContent = await client.get('log_activitys');
@@ -34,57 +34,45 @@ export async function getactivitys(req, res) {
 
         if (cacheLogContent) {
             let activitys = JSON.parse(cacheLogContent);
-            if (title) {
-                activitys = activitys.filter(item => item.title.includes(title));
-            }
 
-            // Filter by user_like
-            if (user_like) {
-                activitys = activitys.filter(item => {
+            // Apply filtering
+            activitys = activitys.filter(item => {
+                let include = true;
+
+                if (title && !item.title.includes(title)) include = false;
+
+                if (user_like) {
                     const likes = JSON.parse(item.user_like || '[]');
-                    return likes.includes(user_like);
-                });
-            }
+                    if (!likes.includes(user_like)) include = false;
+                }
 
-            // Filter by user_dislike
-            if (user_dislike) {
-                activitys = activitys.filter(item => {
+                if (user_dislike) {
                     const dislikes = JSON.parse(item.user_dislike || '[]');
-                    return dislikes.includes(user_dislike);
-                });
-            }
+                    if (!dislikes.includes(user_dislike)) include = false;
+                }
 
-            // Filter by user_share
-            if (user_share) {
-                activitys = activitys.filter(item => {
+                if (user_share) {
                     const shares = JSON.parse(item.user_share || '{}');
-                    return Object.keys(shares).includes(user_share);
-                });
-            }
+                    if (!Object.keys(shares).includes(user_share)) include = false;
+                }
 
-            // Filter by user_fav
-            if (user_fav) {
-                activitys = activitys.filter(item => {
+                if (user_fav) {
                     const favs = JSON.parse(item.user_fav || '{}');
-                    return Object.keys(favs).includes(user_fav);
-                });
-            }
+                    if (!Object.keys(favs).includes(user_fav)) include = false;
+                }
 
-            // Filter by user_view
-            if (user_view) {
-                activitys = activitys.filter(item => {
+                if (user_view) {
                     const views = JSON.parse(item.user_view || '{}');
-                    return Object.keys(views).includes(user_view);
-                });
-            }
+                    if (!Object.keys(views).includes(user_view)) include = false;
+                }
 
-            // Filter by log_rating
-            if (log_rating) {
-                activitys = activitys.filter(item => {
+                if (log_rating) {
                     const ratings = JSON.parse(item.log_rating || '{}');
-                    return Object.keys(ratings).includes(log_rating);
-                });
-            }
+                    if (!Object.keys(ratings).includes(log_rating)) include = false;
+                }
+
+                return include;
+            });
 
             if (activitys.length > 0) {
                 res.json(activitys);
@@ -100,12 +88,11 @@ export async function getactivitys(req, res) {
     }
 }
 
-
 export async function updateactivitysCache() {
     try {
-        const users = await prisma.activitys.findMany();
-        const formattedUsers = convertBigIntToString(users);
-        await client.set('log_activitys', JSON.stringify(formattedUsers), { EX: 1 * 24 * 60 * 60 });
+        const activitys = await prisma.activitys.findMany();
+        const formattedActivitys = convertBigIntToString(activitys);
+        await client.set('log_activitys', JSON.stringify(formattedActivitys), { EX: 1 * 24 * 60 * 60 }); 
     } catch (error) {
         console.error('Error updating log_activitys cache:', error);
     }

@@ -28,7 +28,7 @@ function convertBigIntToString(obj) {
 }
 
 export async function getappointments(req, res) {
-    const { title, type, user_like, user_dislike, user_share, user_fav, user_view, log_rating, location_detail, link_map, link_out } = req.query;
+    const { title, type, user_like, user_dislike, user_share, user_fav, user_view, log_rating, location_detail, link_map, link_out, date_start, date_end, time_start, time_end } = req.query;
 
     try {
         let cacheLogContent = await client.get('log_appointments');
@@ -40,6 +40,7 @@ export async function getappointments(req, res) {
 
         if (cacheLogContent) {
             let appointments = JSON.parse(cacheLogContent);
+
             if (title) {
                 appointments = appointments.filter(item => item.title.includes(title));
             }
@@ -110,6 +111,28 @@ export async function getappointments(req, res) {
             // Filter by link_out
             if (link_out) {
                 appointments = appointments.filter(item => item.link_out.includes(link_out));
+            }
+
+            // Filter by date_start and date_end
+            if (date_start || date_end) {
+                const startDate = new Date(date_start);
+                const endDate = new Date(date_end);
+                appointments = appointments.filter(item => {
+                    const itemStartDate = new Date(item.date_start);
+                    const itemEndDate = new Date(item.date_end);
+                    return (!date_start || itemStartDate >= startDate) && (!date_end || itemEndDate <= endDate);
+                });
+            }
+
+            // Filter by time_start and time_end
+            if (time_start || time_end) {
+                const startTime = new Date(`1970-01-01T${time_start}`).getTime();
+                const endTime = new Date(`1970-01-01T${time_end}`).getTime();
+                appointments = appointments.filter(item => {
+                    const itemStartTime = new Date(`1970-01-01T${item.time_start}`).getTime();
+                    const itemEndTime = new Date(`1970-01-01T${item.time_end}`).getTime();
+                    return (!time_start || itemStartTime >= startTime) && (!time_end || itemEndTime <= endTime);
+                });
             }
 
             if (appointments.length > 0) {

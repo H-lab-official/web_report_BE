@@ -29,10 +29,13 @@ function convertDatesFromISOString(logs) {
     updated_at: log.updated_at ? new Date(log.updated_at) : null,
   }));
 }
-
 export async function getLogs(req, res) {
-  const { log_content, startDate, endDate, user_id, name, current_rank,  } = req.query;
+  const { log_content, startDate, endDate, user_id, name, current_rank } = req.query;
 
+  // Ensure query parameters are encoded correctly
+  const encodedLogContent = log_content ? encodeURIComponent(log_content) : undefined;
+  const encodedName = name ? encodeURIComponent(name) : undefined;
+ 
   const cachedlogs = await client.get('all_logs');
 
   if (!cachedlogs) {
@@ -42,8 +45,8 @@ export async function getLogs(req, res) {
 
   let logs = convertDatesFromISOString(JSON.parse(cachedlogs));
 
-  if (log_content) {
-    logs = logs.filter(log => log.log_content && log.log_content.includes(log_content));
+  if (encodedLogContent) {
+    logs = logs.filter(log => log.log_content && log.log_content.includes(decodeURIComponent(encodedLogContent)));
   }
   if (startDate && endDate) {
     const start = new Date(startDate).setHours(0, 0, 0, 0);
@@ -56,8 +59,8 @@ export async function getLogs(req, res) {
   if (user_id) {
     logs = logs.filter(log => log.user_id === parseInt(user_id));
   }
-  if (name) {
-    logs = logs.filter(log => log.name && log.name.includes(name));
+  if (encodedName) {
+    logs = logs.filter(log => log.name && log.name.includes(decodeURIComponent(encodedName)));
   }
   const allowedRanks = ['AG', 'AVP', 'DM', 'EVP', 'SDM', 'SUM', 'UM', 'VP'];
   if (current_rank && allowedRanks.includes(current_rank)) {

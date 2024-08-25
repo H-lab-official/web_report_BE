@@ -23,7 +23,7 @@ function convertBigIntToString(obj) {
 }
 
 export async function getUsers(req, res) {
-  const { user_id, name, check_pdpa, current_rank, startDate, endDate, check_video_welcome_page } = req.query;
+  const { user_id, name, check_pdpa, current_rank, startDate, endDate, check_video_welcome_page, account } = req.query;
 
   let cachedUsers = await client.get('data_users');
 
@@ -43,7 +43,9 @@ export async function getUsers(req, res) {
   if (name) {
     users = users.filter(user => user.name && user.name.includes(name));
   }
-
+  if (account) {
+    users = users.filter(user => user.account && user.account.includes(account))
+  }
   // Filter by check_pdpa
   if (check_pdpa === "NotChecked") {
     users = users.filter(user => user.check_pdpa === null);
@@ -84,7 +86,8 @@ export async function updateUserCache() {
         current_rank: true,
         created_at: true,
         status_login: true,
-        check_video_welcome_page: true
+        check_video_welcome_page: true,
+        account: true
       },
     });
     const formattedUsers = convertBigIntToString(users);

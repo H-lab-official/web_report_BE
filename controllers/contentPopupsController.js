@@ -22,7 +22,7 @@ function convertBigIntToString(obj) {
     }, {});
 }
 export async function getLogContent(req, res) {
-    const { id } = req.query; // Get the 'id' from query parameters
+    const { id } = req.query; 
 
     try {
         let cacheLogContent = await client.get('log_content_popup');
@@ -35,8 +35,7 @@ export async function getLogContent(req, res) {
         if (cacheLogContent) {
             let content_popups = JSON.parse(cacheLogContent);
 
-            if (id) {
-                // If an ID is provided, filter the content by ID
+            if (id) {                
                 content_popups = content_popups.filter(content => content.id === parseInt(id));
             }
 

@@ -20,7 +20,7 @@ function convertBigIntToString(obj) {
     }, {});
 }
 export async function getMyGoal(req, res) {
-    const { period, startDate, endDate, user_id, goal, price, status, name, taskStartDate, taskEndDate } = req.query;
+    const { period, startDate, endDate, user_id, goal, price, status, name, taskStartDate, taskEndDate, current_rank } = req.query;
 
     let cacheMyGoal = await client.get('my_goal_users');
     if (!cacheMyGoal) {
@@ -86,7 +86,10 @@ export async function getMyGoal(req, res) {
             return goalEndDate <= taskEnd;
         });
     }
-
+    const allowedRanks = ['AG', 'AVP', 'DM', 'EVP', 'SDM', 'SUM', 'UM', 'VP'];
+    if (current_rank && allowedRanks.includes(current_rank)) {
+        myGoal = myGoal.filter(goal => goal.current_rank === current_rank);
+    }
     res.json(myGoal);
 }
 

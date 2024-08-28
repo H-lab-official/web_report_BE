@@ -31,22 +31,17 @@ function convertDatesFromISOString(logs) {
 }
 export async function getLogs(req, res) {
   const { log_content, startDate, endDate, user_id, name, current_rank } = req.query;
-
-  // Ensure query parameters are encoded correctly
   const encodedLogContent = log_content ? encodeURIComponent(log_content) : undefined;
-  const encodedName = name ? encodeURIComponent(name) : undefined;
- 
+  const encodedName = name ? encodeURIComponent(name) : undefined; 
   const cachedlogs = await client.get('all_logs');
-
   if (!cachedlogs) {
     await updateCache()
     return res.status(500).json({ error: "Logs are not available at the moment. Please try again later." });
   }
-
   let logs = convertDatesFromISOString(JSON.parse(cachedlogs));
 
   if (encodedLogContent) {
-    logs = logs.filter(log => log.log_content && log.log_content.includes(decodeURIComponent(encodedLogContent)));
+    logs = logs.filter(log => log.log_content && log.log_content === decodeURIComponent(encodedLogContent));
   }
   if (startDate && endDate) {
     const start = new Date(startDate).setHours(0, 0, 0, 0);
@@ -69,6 +64,7 @@ export async function getLogs(req, res) {
 
   res.json(logs);
 }
+
 
 export async function updateCache() {
   try {

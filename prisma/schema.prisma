@@ -566,6 +566,7 @@ model logs_with_user_info {
   user_id      Int?
   name         String?
   current_rank String?
+  role         String?
 }
 
 model my_goal_users_with_user_info {

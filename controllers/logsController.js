@@ -30,9 +30,9 @@ function convertDatesFromISOString(logs) {
   }));
 }
 export async function getLogs(req, res) {
-  const { log_content, startDate, endDate, user_id, name, current_rank } = req.query;
+  const { log_content, startDate, endDate, user_id, name, current_rank, user_role } = req.query;
   const encodedLogContent = log_content ? encodeURIComponent(log_content) : undefined;
-  const encodedName = name ? encodeURIComponent(name) : undefined; 
+  const encodedName = name ? encodeURIComponent(name) : undefined;
   const cachedlogs = await client.get('all_logs');
   if (!cachedlogs) {
     await updateCache()
@@ -61,7 +61,10 @@ export async function getLogs(req, res) {
   if (current_rank && allowedRanks.includes(current_rank)) {
     logs = logs.filter(log => log.current_rank === current_rank);
   }
-
+  const allowedRoles = ['Super-admin', 'member', 'Admin', 'staff']
+  if (user_role && allowedRoles.includes(user_role)) {
+    logs = logs.filter(log => log.user_role === user_role);
+  }
   res.json(logs);
 }
 

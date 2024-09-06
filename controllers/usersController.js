@@ -47,7 +47,7 @@ export async function getUsers(req, res) {
     users = users.filter(user => user.account && user.account.includes(account))
   }
   if (role) {
-    role = role.filter(user => user.role && user.role.includes(role))
+    users = users.filter(user => user.role && user.role.includes(role))
   }
   // Filter by check_pdpa
   if (check_pdpa === "NotChecked") {

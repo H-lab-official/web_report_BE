@@ -36,7 +36,7 @@ jobs:
             export BUN_INSTALL="$HOME/.bun"
             export PATH="\$BUN_INSTALL/bin:\$PATH"
             cd $TARGET_DIR
-            git pull origin ${GITHUB_REF#refs/heads/}
+            git pull origin main
             echo "DATABASE_URL=\"${DATABASE_URL}\"" > .env          
             bun install
             bunx prisma generate

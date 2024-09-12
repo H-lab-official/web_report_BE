@@ -26,29 +26,37 @@ jobs:
 
       - name: Deploy to DigitalOcean
         env:
-          HOST: ${{ secrets.SERVER_DOMAIN }}
-          USERNAME: ${{ secrets.SERVER_USERNAME }}
-          TARGET_DIR: /var/www/web_report_BE
-          APP_NAME: WEB-Report-az
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}         
+            HOST: ${{ secrets.SERVER_DOMAIN }}
+            USERNAME: ${{ secrets.SERVER_USERNAME }}
+            TARGET_DIR: /var/www/web_report_BE
+            APP_NAME: WEB-Report-az
+            DATABASE_URL: ${{ secrets.DATABASE_URL }}         
         run: |
-          ssh -o StrictHostKeyChecking=no $USERNAME@$HOST << EOF
-            export BUN_INSTALL="$HOME/.bun"
-            export PATH="\$BUN_INSTALL/bin:\$PATH"
-            cd $TARGET_DIR
-            git pull origin main
-            echo "DATABASE_URL=\"${DATABASE_URL}\"" > .env          
-            bun install
-            bunx prisma generate
-            mv ecosystem.config.js ecosystem.config.cjs                  
-            if pm2 list | grep -q $APP_NAME; then
-              echo "Restarting application: $APP_NAME"
-              pm2 stop $APP_NAME
-              pm2 delete $APP_NAME
-              pm2 start ecosystem.config.cjs
-            else
-              echo "Starting application: $APP_NAME"
-              pm2 start ecosystem.config.cjs
-            fi
-            pm2 save
-          EOF
+            ssh -o StrictHostKeyChecking=no $USERNAME@$HOST << EOF
+              export BUN_INSTALL="$HOME/.bun"
+              export PATH="\$BUN_INSTALL/bin:\$PATH"
+              cd $TARGET_DIR
+              git pull origin ${GITHUB_REF#refs/heads/}
+              echo "DATABASE_URL=\"${DATABASE_URL}\"" > .env
+              bun install
+              bunx prisma generate
+        
+              # Check if ecosystem.config.js exists before moving
+              if [ -f ecosystem.config.js ]; then
+                mv ecosystem.config.js ecosystem.config.cjs
+              else
+                echo "ecosystem.config.js not found, skipping mv command"
+              fi
+        
+              if pm2 list | grep -q $APP_NAME; then
+                echo "Restarting application: $APP_NAME"
+                pm2 stop $APP_NAME
+                pm2 delete $APP_NAME
+                pm2 start ecosystem.config.cjs
+              else
+                echo "Starting application: $APP_NAME"
+                pm2 start ecosystem.config.cjs
+              fi
+              pm2 save
+            EOF
+        

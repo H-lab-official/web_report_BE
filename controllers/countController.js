@@ -29,6 +29,39 @@ export async function countRanks(req, res) {
   }
 }
 
+// export async function countContent(req, res) {
+//   const cacheKey = `count_content`;
+//   const cachedCount = await client.get(cacheKey);
+
+//   if (cachedCount) {
+//     return res.json(JSON.parse(cachedCount));
+//   }
+
+//   try {
+//     const counts = await prisma.logs_with_user_info.groupBy({
+//       by: ['log_content'],
+//       _count: {
+//         log_content: true,
+//       },
+//     });
+
+//     const distinctLogContentCount = counts.length;
+
+//     const response = {
+//       totalDistinctLogContent: distinctLogContentCount,
+//       counts,
+//     };
+
+//     await client.set(cacheKey, JSON.stringify(response), {
+//       EX: 3600,
+//     });
+
+//     res.json(response);
+//   } catch (error) {
+//     console.error('Error fetching log_content counts:', error);
+//     res.status(500).json({ error: "An error occurred while fetching log_content counts" });
+//   }
+// }
 export async function countContent(req, res) {
   const cacheKey = `count_content`;
   const cachedCount = await client.get(cacheKey);
@@ -38,18 +71,40 @@ export async function countContent(req, res) {
   }
 
   try {
-    const counts = await prisma.logs_with_user_info.groupBy({
-      by: ['log_content'],
+    // นับจำนวน log_content แบ่งตามวันที่
+    const countsByDate = await prisma.logs_with_user_info.groupBy({
+      by: ['log_content', 'created_at'], // นับตาม log_content และวันที่
       _count: {
         log_content: true,
       },
     });
 
-    const distinctLogContentCount = counts.length;
+    // นับจำนวน log_content ทั้งหมดโดยไม่สนใจวันที่
+    const totalCounts = await prisma.logs_with_user_info.groupBy({
+      by: ['log_content'], // นับเฉพาะ log_content ไม่สนใจวันที่
+      _count: {
+        log_content: true,
+      },
+    });
+
+    // ฟอร์แมตวันที่เพื่อให้เป็นรูปแบบที่สามารถนำมาใช้งานได้ง่าย
+    const formattedCountsByDate = countsByDate.map((item) => ({
+      log_content: item.log_content,
+      date: item.created_at.toISOString().split('T')[0], // แปลงเป็นรูปแบบ YYYY-MM-DD
+      count: item._count.log_content,
+    }));
+
+    const formattedTotalCounts = totalCounts.map((item) => ({
+      log_content: item.log_content,
+      total_count: item._count.log_content,
+    }));
+
+    const distinctLogContentCount = formattedCountsByDate.length;
 
     const response = {
       totalDistinctLogContent: distinctLogContentCount,
-      counts,
+      countsByDate: formattedCountsByDate, // ข้อมูลการนับโดยแยกตามวัน
+      totalCounts: formattedTotalCounts,   // ข้อมูลการนับทั้งหมดไม่สนใจวันที่
     };
 
     await client.set(cacheKey, JSON.stringify(response), {

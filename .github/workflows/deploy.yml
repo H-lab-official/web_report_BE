@@ -40,10 +40,7 @@ jobs:
             echo "DATABASE_URL=\"${DATABASE_URL}\"" > .env          
             bun install
             bunx prisma generate
-            bun run build
-            
-            mv ecosystem.config.js ecosystem.config.cjs
-                  
+            mv ecosystem.config.js ecosystem.config.cjs                  
             if pm2 list | grep -q $APP_NAME; then
               echo "Restarting application: $APP_NAME"
               pm2 restart $APP_NAME

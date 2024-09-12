@@ -52,22 +52,15 @@ jobs:
               echo "Generating Prisma files..."
               bunx prisma generate || { echo "Prisma generate failed"; exit 1; }
               
-              # Check if ecosystem.config.js exists before moving
-              if [ -f ecosystem.config.js ]; then
-                mv ecosystem.config.js ecosystem.config.cjs
-              else
-                echo "ecosystem.config.js not found, skipping mv command"
-              fi
-              
               echo "Managing PM2 processes..."
               if pm2 list | grep -q $APP_NAME; then
                 echo "Restarting application: $APP_NAME"
                 pm2 stop $APP_NAME || { echo "PM2 stop failed"; exit 1; }
                 pm2 delete $APP_NAME || { echo "PM2 delete failed"; exit 1; }
-                pm2 start ecosystem.config.cjs || { echo "PM2 start failed"; exit 1; }
+                pm2 start index.js --name $APP_NAME || { echo "PM2 start failed"; exit 1; }
               else
                 echo "Starting application: $APP_NAME"
-                pm2 start ecosystem.config.cjs || { echo "PM2 start failed"; exit 1; }
+                pm2 start index.js --name $APP_NAME || { echo "PM2 start failed"; exit 1; }
               fi
               
               pm2 save || { echo "PM2 save failed"; exit 1; }

@@ -43,7 +43,9 @@ jobs:
             mv ecosystem.config.js ecosystem.config.cjs                  
             if pm2 list | grep -q $APP_NAME; then
               echo "Restarting application: $APP_NAME"
-              pm2 restart $APP_NAME
+              pm2 stop $APP_NAME
+              pm2 delete $APP_NAME
+              pm2 start ecosystem.config.cjs
             else
               echo "Starting application: $APP_NAME"
               pm2 start ecosystem.config.cjs

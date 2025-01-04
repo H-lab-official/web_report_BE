@@ -281,6 +281,7 @@ model logs {
   log_content String?   @db.VarChar(255)
   user_id     String?   @db.VarChar(255)
   role        String?   @db.VarChar(255)
+  account     String?   @db.VarChar(255)
 }
 
 model migrations {

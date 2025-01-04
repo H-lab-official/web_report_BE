@@ -44,13 +44,15 @@ export async function getLogs(req, res) {
     logs = logs.filter(log => log.log_content && log.log_content === decodeURIComponent(encodedLogContent));
   }
   if (startDate && endDate) {
-    const start = new Date(startDate).setHours(0, 0, 0, 0);
-    const end = new Date(endDate).setHours(23, 59, 59, 999);
+    const start = new Date(startDate).setHours(0, 0, 0, 0); // Set start date to 00:00:00
+    const end = new Date(endDate).setHours(23, 59, 59, 999); // Set end date to 23:59:59
+
     logs = logs.filter(log => {
-      const logDate = new Date(log.created_at).getTime();
-      return logDate >= start && logDate <= end;
+        const logDate = new Date(log.created_at).getTime();
+        return logDate >= start && logDate <= end; // Only include logs within the date range
     });
-  }
+}
+
   if (user_id) {
     logs = logs.filter(log => log.user_id === parseInt(user_id));
   }
